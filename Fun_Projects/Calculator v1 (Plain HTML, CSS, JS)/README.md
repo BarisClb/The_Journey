@@ -5,4 +5,6 @@ I know it doesn't look very pretty, not only did I not use a CSS Framework like 
 I thought that "Learning new things is a lot more important than trying to do what I already know." so, instead of making it look good and adding a Clear button, I went back on the journey but I promise, I will get back to this project one day!
 
 So, note to self :  1) Add a Clear/AllClear button.
-                    2) Make it look better.
+                    2) Fix the simple Problems ( Example: You need to select an operation after the calculation total comes, else it will alter the total.)
+                    3) Make it look better.
+                    
