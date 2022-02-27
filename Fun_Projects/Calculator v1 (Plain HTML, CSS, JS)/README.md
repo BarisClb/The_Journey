@@ -1,4 +1,4 @@
-# Calculator_v1
+# Calculator v1
 
 Tried my hand at making a calculator after learning "eventListener"s. I did much simpler ones before, the kind that only does one kind of calculation so this one is a bit more advanced than those (since it stores the previous total and continues the new calculation from there).  
   
