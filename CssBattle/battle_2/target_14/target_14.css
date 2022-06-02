@@ -1,0 +1,30 @@
+    body {
+        display: grid;
+        place-items: center;
+        background: #F2F2B6;
+    }
+    div {
+        position: absolute;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+    }
+    div[a]{
+        border-top: 130px solid #FD4602;
+        border-bottom: 150px solid transparent;
+        margin: 150 90 0 0;
+    }
+    div[b] {
+        border-top: 130px solid #FF6D00;
+        border-bottom: 150px solid transparent;
+        margin: 150 130 0 0;
+    }
+    div[c] {
+        border-top: 150px solid transparent;
+        border-bottom: 130px solid #FF6D00;
+        margin: 0 0 150 130;
+    }
+    div[d] {
+        border-top: 150px solid transparent;
+        border-bottom: 130px solid #FD4602;
+        margin: 0 0 150 90;
+    }

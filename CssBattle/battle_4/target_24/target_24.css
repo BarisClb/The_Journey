@@ -1,0 +1,28 @@
+    body {
+        background: #62306D;
+        display: grid;
+        place-items: center;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        background: #F7EC7D;
+        border-radius: 50vh;
+        position: absolute;
+    }
+    div[a] {
+        margin: 0 140px 50px 0;
+        height: 150px;
+        background: #AA445F;
+    }
+    div[b] {
+        margin: 0 140px 0 0;
+    }
+    div[c] {
+        margin: 50px 0 0 140px;
+        height: 150px;
+        background: #E38F66;
+    }
+    div[d] {
+        margin: 0 0 0 140px;
+    }

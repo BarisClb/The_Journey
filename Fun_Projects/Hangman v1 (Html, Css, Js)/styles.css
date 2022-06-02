@@ -1,0 +1,128 @@
+    /* Deneme fonksyion buttonları */
+
+    .deneme {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .deneme-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    /* Global Style */
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* Tembel işi content ortalama */
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: gray;
+    }
+
+    /* Content Container ve Multi-Content Styles */
+
+    div.container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80vh;
+        width: 100vw;
+        background: black;
+    }
+    
+    div.the-word, div.the-letters, div.the-answer, #guess-the-word-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Content 1 - Hangman Resmi(?) ve Deneme Counter */
+
+    div.hangman {
+        height: 80%;
+        width: 30%;
+        background: rgb(12, 25, 145);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    div.hangman .tries {
+        height: 33%;
+        width: 30%;
+        background: rgba(255, 255, 255, 0.548);
+    }
+
+    div.hangman .wrong-try {
+        background: red;
+    }
+
+    /* Content 2 - Kelime, Denenen Harfler ve Tahmin Etme */
+
+    div.words {
+        height: 80%;
+        width: 30%;
+        background: rgb(12, 25, 145);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .letter-box {
+        height: 20px;
+        width: 200px;
+        background: rgba(183, 231, 11, 0.644);
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    div#what-is-the-word {
+        letter-spacing: 5px;
+    }
+
+    .guess-button {
+        background: rgb(17, 136, 57);
+        margin-top: 10px;
+    }
+
+    /* Content 3 - Harf Tahmin Etme */
+
+    div.keyboard-container {
+        position: relative;
+        height: 80%;
+        width: 30%;
+        background: rgb(12, 25, 145);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.keyboard {
+        position: relative;
+        height: 80%;
+        width: 80%;
+        /* background: red; */
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    div .keyboard .button {
+        /* height: 25px;
+        width: 25px; */
+        background: rgb(79, 8, 94);
+    }

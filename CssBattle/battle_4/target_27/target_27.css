@@ -1,0 +1,22 @@
+    div {
+        width: 100px;
+        height: 100px;
+        background: #AA445F;
+        position: absolute;
+    }
+    div[a] {
+        width: 200px;
+        height: 200px;
+        border-radius: 50vh;
+        background: radial-gradient(#AA445F 0 28.5%, #F7EC7D 0 49.5%, #AA445F 0 100%)
+    }
+    div[b] {
+        border-radius: 50vh 0 0 0;
+        left: 100px;
+        top: 50px;
+    }
+    div[c] {
+        border-radius: 0 0 50vh 0;
+        right: 100px;
+        bottom: 50px;
+    }

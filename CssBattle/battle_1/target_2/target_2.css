@@ -1,0 +1,62 @@
+    body {
+        background: #62374e;
+    }
+    div {
+        width: 50px;
+        height: 50px;
+        background: #fdc57b;
+        display: inline-block;
+        position: absolute;
+    }
+    div[a] {
+        top: 34px;
+        left: 50px;
+    }
+    div[b] {
+        top: 34px;
+        right: 50px;
+    }
+    div[c] {
+        bottom: 34px;
+        left: 50px;
+    }
+    div[d] {
+        bottom: 34px;
+        right: 50px;
+    }
+
+
+
+    /* END WORK */
+
+
+    /* <p a></p><p b></p><p c></p><p d></p>
+<style>
+    body {
+        background: #62374e;
+    }
+    p {
+        width: 50px;
+        height: 50px;
+        background: #fdc57b;
+        display: inline-block;
+        position: absolute;
+    }
+    p[a] {
+        top: 34px;
+        left: 50px;
+    }
+    p[b] {
+        top: 34px;
+        right: 50px;
+    }
+    p[c] {
+        bottom: 34px;
+        left: 50px;
+    }
+    p[d] {
+        bottom: 34px;
+        right: 50px;
+    }
+</style> */
+

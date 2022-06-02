@@ -1,0 +1,61 @@
+    body {
+        display: grid;
+        place-items: center;
+        background: #0B2429;
+    }
+    div {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        position: absolute;
+    }
+    div[a] {
+        margin: 0 100px 0 0;
+        background: #1A4341;
+        border-radius: 100px 0;
+    }
+    div[b] {
+        background: #998235;
+        border-radius: 100px 0;
+    }
+    div[c] {
+        margin: 0 0 0 100px;
+        background: #F3AC3C;
+        border-radius: 100px 0;
+    }
+
+
+
+
+    /* END WORK */
+
+
+    /* <p a></p><p b></p><p c></p>
+<style>
+    body {
+        display: grid;
+        place-items: center;
+        background: #0B2429;
+    }
+    p {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        position: absolute;
+    }
+    p[a] {
+        margin: 0 100px 0 0;
+        background: #1A4341;
+        border-radius: 100px 0;
+    }
+    p[b] {
+        background: #998235;
+        border-radius: 100px 0;
+    }
+    p[c] {
+        margin: 0 0 0 100px;
+        background: #F3AC3C;
+        border-radius: 100px 0;
+    }
+</style> */
+

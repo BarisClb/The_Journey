@@ -1,0 +1,28 @@
+    body {
+        display: grid;
+        place-items: center;
+        background: #F5D6B4;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        background: #D86F45;
+        position: absolute;
+        border-radius: 50%;
+        height: 100;
+        width: 100;
+    }
+    div[a] {
+        bottom: 85;
+        height: 50;
+        width: 200;
+        border-radius: 0 50vh 50vh 100vh;
+    }
+    div[b] {
+        top: 85;
+        right: 120;
+    }
+    div[c] {
+        top: 115;
+        left: 100;
+    }

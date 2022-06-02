@@ -1,0 +1,42 @@
+    body {
+        display: grid;
+        place-items: center;
+        background: #222;
+    }
+    div {
+        width: 100px;
+        height: 30px;
+        position: absolute;
+    }
+    div[a] {
+        background: #F2994A;
+        transform: rotate(-45deg);
+        left: 120px;
+        top: 93px;
+        border-radius: 10px 0 0 0;
+    }
+    div[a]::after{
+        content: "";
+        height: 51px;
+        width: 30px;
+        display: inline-block;
+        background: #F2994A;
+        margin: 29 0 0 0;
+        border-radius: 0 0 5px 0;
+    }
+    div[b] {
+        background: #2D9CDB;
+        transform: rotate(-45deg);
+        right: 122px;
+        bottom: 94px;
+        border-radius: 0 0 10px 0;
+    }
+    div[b]::after{
+        content: "";
+        height: 51px;
+        width: 30px;
+        display: inline-block;
+        background: #2D9CDB;
+        margin: -50 0px 0 70;
+        border-radius: 5px 0 0 0;
+    }

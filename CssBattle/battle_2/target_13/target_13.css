@@ -1,0 +1,18 @@
+    body {
+        background: #0B2429;
+        margin: 0;
+    }
+    div {
+        position: relative;
+        height: 200px;
+        width: 200px;
+    }
+    p {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        right: 85px;
+        bottom: 85px;
+        background: #F3AC3C;
+        transform: rotate(45deg);
+    }

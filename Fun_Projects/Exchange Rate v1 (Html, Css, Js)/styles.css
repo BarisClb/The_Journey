@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+div.container {
+	height: 100vh;
+	width: 100vw;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+div.box {
+	height: 60vh;
+	width: 40vw;
+	background: greenyellow;
+}
+
+div.box.box-1,
+div.box.box-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+div.currency-box,
+div.exhchange-box-to-convert,
+div.exhchange-box-converted {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.converted-amount {
+	height: 20px;
+	width: 200px;
+	background: black;
+	color: white;
+}

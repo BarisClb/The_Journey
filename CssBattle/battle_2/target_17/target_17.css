@@ -1,0 +1,35 @@
+    body {
+        display: grid;
+        place-items: center;
+        background: #09042A;
+    }
+    div {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #09042A;
+        border-radius: 50%
+    }
+    div[a] {
+    width: 80px;
+    height: 80px;
+    background: #E78481;
+    }
+    div[b] {
+        left: 25%;
+        border: 10px solid #E78481
+    }
+    div[c] {
+        right: 25%;
+        border: 10px solid #E78481
+    }
+    div[d] {
+        top: 19%;
+        background: #F5BB9C;
+        border: 10px solid #09042A
+    }
+    div[e] {
+        bottom: 19%;
+        background: #F5BB9C;
+        border: 10px solid #09042A
+    }

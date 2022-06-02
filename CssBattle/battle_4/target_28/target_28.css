@@ -1,0 +1,51 @@
+    body {
+        background: #1A4341;
+        display: grid;
+        place-items: center;
+    }
+    div {
+        width: 50px;
+        height: 50px;
+        background: #998235;
+        position: absolute;
+        border-radius: 50%;
+    }
+    div[y] {
+        background: #F3AC3C;
+    }
+    div[a] {
+        left: 70px;
+        top: 90px;
+    }
+    div[b] {
+        left: 140px;
+        top: 90px;
+        border-radius: 50vh 50vh 0 0;
+    }
+    div[c] {
+        right: 140px;
+        top: 90px;
+        border-radius: 50vh 50vh 0 0;
+    }
+    div[d] {
+        right: 70px;
+        top: 90px;
+    }
+    div[e] {
+        left: 70px;
+        bottom: 90px;
+        border-radius: 0 0 50vh 50vh;
+    }
+    div[f] {
+        left: 140px;
+        bottom: 90px;
+    }
+    div[g] {
+        right: 70px;
+        bottom: 90px;
+        border-radius: 0 0 50vh 50vh;
+    }
+    div[h] {
+        right: 140px;
+        bottom: 90px;
+    }
