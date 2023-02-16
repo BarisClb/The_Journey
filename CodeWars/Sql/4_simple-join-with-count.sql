@@ -14,8 +14,6 @@
 
 -- My Answer
 
--- Create your SELECT statement here
-
 select p.id, p.name, count(t.id) as toy_count from people as p
 inner join toys as t on t.people_id = p.id
 group by p.id
